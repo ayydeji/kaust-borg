@@ -1,0 +1,55 @@
+gilps run on /home/muhammaa/ilp/gilps/drugdisease.pl (28/01/2020) <small connected subset 10 drugs>:
+
+% Restoring file /usr/lib/Yap/startup.yss
+YAP 6.2.2 (x86_64-linux): Sat Sep 17 13:59:03 UTC 2016
+GILPS: General Inductive Logic Programming System
+Version: 0.15
+Date: 15th March 2010
+Author: Jose Santos
+For more information please check: http://www.doc.ic.ac.uk/~jcs06
+20 examples loaded.
+10 positives, 10 negatives.
+10% (1/10) examples processed.
+20% (2/10) examples processed.
+30% (3/10) examples processed.
+40% (4/10) examples processed.
+50% (5/10) examples processed.
+60% (6/10) examples processed.
+70% (7/10) examples processed.
+80% (8/10) examples processed.
+90% (9/10) examples processed.
+100% (10/10) examples processed.
+1 unique hypotheses were generated from 10 examples.
+100% (1/1) hypotheses coverage computed.
+Coverage for 1 unique hypotheses has been computed.
+*************************************************
+* Theory constructed from all the training data *
+*************************************************
+**************************
+* Induced General Theory *
+**************************
+Hypothesis 1/1:
+#Literals=3, PosScore=10 (10 new), NegScore=0 (0 new) Prec=100% (100% new)
+treats(A,B):-
+   targets(A,C), relatesto(C,B).
+************************************************************
+* Train theory statistics (using all examples as training) *
+************************************************************
+           |                 Actual                |
+ Predicted |           Positive|           Negative|             Totals
+-----------|-------------------|-------------------|-------------------
+   Positive|             10+/-0|              0+/-0|             10+/-0
+-----------|-------------------|-------------------|-------------------
+   Negative|              0+/-0|             10+/-0|             10+/-0
+-----------|-------------------|-------------------|-------------------
+ Totals    |             10+/-0|             10+/-0|             20+/-0
+Default accuracy: 50% +/-0.0%
+Classifier accuracy: 100% +/-0.0%
+Recall/Sensitivity: 100% +/-0.0% (% of correctly class. positive examples)
+Specificity: 100% +/-0.0% (% of correctly class. negative examples)
+Precision: 100% +/-0.0% (% of correctly predicted positive examples)
+CorPredNeg: 100% +/-0.0% (i.e. % of correctly predicted negative examples)
+F1-score: 1 +/-0.00 (i.e. 2*Precision*Recall/(Precision+Recall)
+Matthews correlation: 1 +/-0.00 (i.e. (TP*TN-FP*FN)/sqrt((TP+FP)*(TP+FN)*(TN+FP)*(TN+FN)))
+
+

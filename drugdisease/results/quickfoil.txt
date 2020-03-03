@@ -1,0 +1,7 @@
+Results for /home/muhammaa/ilp/quickfoil/sample_data/drugdisease/drugdisease.json (04/02/2020) <small connected subset 10 drugs>:
+
+Elapsed time: 0.00166201s
+#Clauses = 1
+treats(0, 1) :-  relatesto(2, 1), targets(0, 2)
+
+(Notes): Works when you have the correct number of positve examples given, a wrong number will result in invalid candidate literals.
