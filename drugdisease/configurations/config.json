@@ -1,0 +1,18 @@
+{
+  "training_set_path": "/home/muhammaa/ilp/graph/connected/ashraf_connected_train.tsv",
+  "execution_mode": "HPO_mode",
+  "kg_embedding_model_name": "TransE",
+  "embedding_dim": [50,100,150],
+  "margin_loss": [1.0,1.5,2.0],
+  "scoring_function": [1,2],
+  "normalization_of_entities": 2,
+  "learning_rate": [0,1,0.01],
+  "batch_size": [32,128],
+  "num_epochs": 1000,
+  "maximum_number_of_hpo_iters": 3,
+  "test_set_path": "/home/muhammaa/ilp/graph/connected/ashraf_connected_test.tsv",
+  "filter_negative_triples": true,
+  "preferred_device": "cpu",
+  "output_direc": "/home/muhammaa/pykeen/connected-transe-model4",
+  "random_seed": 2
+}
