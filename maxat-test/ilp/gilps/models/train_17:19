@@ -1,0 +1,1 @@
+theory_clause([links_with(A,B),has_annotation(A,C)],[links_with(+protein,-protein),has_annotation(+protein,-annotation)]).

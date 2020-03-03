@@ -1,0 +1,21 @@
+{
+  "training_set_path": "/home/muhammaa/ilp/maxat-test/pykeen/graph/full/final_2020-02-10 17:47:32.694629.tsv",
+  "execution_mode": "HPO_mode",
+  "kg_embedding_model_name": "TransE",
+  "embedding_dim": 50,
+  "margin_loss": 1.5,
+  "scoring_function": 1,
+  "normalization_of_entities": 2,
+  "learning_rate": 0.01,
+  "batch_size": 128,
+  "num_epochs": 1000,
+  "maximum_number_of_hpo_iters": 3,
+  "test_set_path": "/home/muhammaa/ilp/maxat-test/pykeen/graph/full/final_2020-02-10 17:47:32.694629.tsv",
+  "filter_negative_triples": true,
+  "preferred_device": "cpu",
+  "output_direc": "/home/muhammaa/ilp/maxat-test/pykeen/models/transe-model1",
+  "random_seed": 2,
+  "pykeen-version": "0.0.26",
+  "num_entities": 12511,
+  "num_relations": 2
+}

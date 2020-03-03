@@ -1,0 +1,39 @@
+
+Yeast run with gilps without GO: annotation information.
+*************************************************
+* Theory constructed from all the training data *
+*************************************************
+
+
+**************************
+* Induced General Theory *
+**************************
+
+Hypothesis 1/1:
+#Literals=2, PosScore=7.562e+04 (7.562e+04 new), NegScore=2.43e+04 (2.43e+04 new) Prec=75.7% (75.7% new)
+links_with(A,B):-
+   has_annotation(A,C).
+
+
+************************************************************
+* Train theory statistics (using all examples as training) *
+************************************************************
+
+           |                 Actual                |
+ Predicted |           Positive|           Negative|             Totals
+-----------|-------------------|-------------------|-------------------
+   Positive|          75618+/-0|          24300+/-0|          99918+/-0
+-----------|-------------------|-------------------|-------------------
+   Negative|            575+/-0|           1355+/-0|           1930+/-0
+-----------|-------------------|-------------------|-------------------
+ Totals    |          76193+/-0|          25655+/-0|         101848+/-0
+
+Default accuracy: 74.8% +/-0.0%
+Classifier accuracy: 75.6% +/-0.0%
+Recall/Sensitivity: 99.2% +/-0.0% (% of correctly class. positive examples)
+Specificity: 5.28% +/-0.0% (% of correctly class. negative examples)
+Precision: 75.7% +/-0.0% (% of correctly predicted positive examples)
+CorPredNeg: 70.2% +/-0.0% (i.e. % of correctly predicted negative examples)
+F1-score: 0.859 +/-0.00 (i.e. 2*Precision*Recall/(Precision+Recall)
+Matthews correlation: 0.144 +/-0.00 (i.e. (TP*TN-FP*FN)/sqrt((TP+FP)*(TP+FN)*(TN+FP)*(TN+FN)))
+
