@@ -7,3 +7,8 @@ This project was conducted in KAUST as part of the Bio-Otology Research group. I
 `
 pip install pykeen
 `
+- TILDE ` git clone https://github.com/joschout/tilde.git`
+- GILPS ` git clone https://github.com/bio-ontology-research-group/GILPS.git`
+- QuickFoil ` git clone https://github.com/bio-ontology-research-group/quickfoil.git`
+
+## The Data
