@@ -13,5 +13,7 @@ pip install pykeen
 
 ## The Data.
 ### Drug Disease.
+The aim of this dataset is to predict drug-disease associations using pykeen and ilp methods; TILDE, GILPS and QuickFOIL.
+The data was created by integrating Drug-Target interactions from **DrugBank**, Protein-Protein Interactions from **STRING** Protein-Disease and Drug-Disease Interactions from **SIDER**.
 ### Maxat Test (Yeast and Human).
 ### FB15K-237.
