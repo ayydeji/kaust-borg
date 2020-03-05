@@ -12,3 +12,6 @@ pip install pykeen
 - QuickFoil ` git clone https://github.com/bio-ontology-research-group/quickfoil.git`
 
 ## The Data
+### Drug Disease
+### Maxat Test (Yeast and Human)
+### FB15K-237
