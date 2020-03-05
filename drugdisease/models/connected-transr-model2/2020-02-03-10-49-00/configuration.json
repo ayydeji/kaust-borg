@@ -1,0 +1,21 @@
+{
+  "training_set_path": "/home/muhammaa/ilp/graph/connected/ashraf_connected_train.tsv",
+  "execution_mode": "HPO_mode",
+  "kg_embedding_model_name": "TransR",
+  "embedding_dim": 50,
+  "relation_embedding_dim": 20,
+  "margin_loss": 1.0,
+  "scoring_function": 1,
+  "learning_rate": 0.01,
+  "batch_size": 32,
+  "num_epochs": 1000,
+  "maximum_number_of_hpo_iters": 3,
+  "test_set_path": "/home/muhammaa/ilp/graph/connected/ashraf_connected_test.tsv",
+  "filter_negative_triples": true,
+  "random_seed": 2,
+  "preferred_device": "cpu",
+  "output_direc": "/home/muhammaa/pykeen/connected-transr-model2",
+  "pykeen-version": "0.0.26",
+  "num_entities": 3734,
+  "num_relations": 4
+}

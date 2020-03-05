@@ -1,0 +1,21 @@
+{
+  "training_set_path": "/home/muhammaa/ilp/graph/connected/final.tsv",
+  "execution_mode": "HPO_mode",
+  "kg_embedding_model_name": "TransE",
+  "embedding_dim": 100,
+  "margin_loss": 1.0,
+  "scoring_function": 2,
+  "normalization_of_entities": 2,
+  "learning_rate": 0.01,
+  "batch_size": 128,
+  "num_epochs": 1000,
+  "maximum_number_of_hpo_iters": 3,
+  "test_set_ratio": 0.2,
+  "filter_negative_triples": true,
+  "random_seed": 2,
+  "preferred_device": "cpu",
+  "output_direc": "/home/muhammaa/pykeen/connected-transe-model3",
+  "pykeen-version": "0.0.26",
+  "num_entities": 9967,
+  "num_relations": 4
+}

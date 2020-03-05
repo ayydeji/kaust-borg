@@ -1,0 +1,21 @@
+{
+  "training_set_path": "/home/muhammaa/pykeen/connected-data/final.nt",
+  "execution_mode": "HPO_mode",
+  "kg_embedding_model_name": "TransR",
+  "embedding_dim": 100,
+  "relation_embedding_dim": 50,
+  "margin_loss": 1.0,
+  "scoring_function": 1,
+  "learning_rate": 0.1,
+  "batch_size": 128,
+  "num_epochs": 1000,
+  "maximum_number_of_hpo_iters": 3,
+  "test_set_ratio": 0.2,
+  "filter_negative_triples": true,
+  "random_seed": 2,
+  "preferred_device": "cpu",
+  "output_direc": "/home/muhammaa/pykeen/connected-transr-model1",
+  "pykeen-version": "0.0.26",
+  "num_entities": 17664,
+  "num_relations": 6
+}

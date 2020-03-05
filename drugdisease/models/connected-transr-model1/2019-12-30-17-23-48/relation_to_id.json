@@ -1,0 +1,8 @@
+{
+  "http://www.semanticscience.org/resouce/activation": 0,
+  "http://www.semanticscience.org/resouce/expression": 1,
+  "http://www.semanticscience.org/resouce/has_disease": 2,
+  "http://www.semanticscience.org/resouce/has_side_effect": 3,
+  "http://www.semanticscience.org/resouce/has_target": 4,
+  "http://www.semanticscience.org/resouce/inhibition": 5
+}

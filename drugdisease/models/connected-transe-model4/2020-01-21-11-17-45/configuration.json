@@ -1,0 +1,21 @@
+{
+  "training_set_path": "/home/muhammaa/ilp/tilde/tilde/ecml06/drugdisease/1_set/kb_csv.tsv",
+  "execution_mode": "HPO_mode",
+  "kg_embedding_model_name": "TransE",
+  "embedding_dim": 50,
+  "margin_loss": 1.0,
+  "scoring_function": 1,
+  "normalization_of_entities": 2,
+  "learning_rate": 1,
+  "batch_size": 32,
+  "num_epochs": 1000,
+  "maximum_number_of_hpo_iters": 3,
+  "test_set_ratio": 0.2,
+  "filter_negative_triples": true,
+  "preferred_device": "cpu",
+  "output_direc": "/home/muhammaa/pykeen/connected-transe-model4",
+  "random_seed": 2,
+  "pykeen-version": "0.0.26",
+  "num_entities": 1918,
+  "num_relations": 3
+}
