@@ -11,7 +11,7 @@ pip install pykeen
 - GILPS ` git clone https://github.com/bio-ontology-research-group/GILPS.git`
 - QuickFoil ` git clone https://github.com/bio-ontology-research-group/quickfoil.git`
 
-## The Data
-### Drug Disease
-### Maxat Test (Yeast and Human)
-### FB15K-237
+## The Data.
+### Drug Disease.
+### Maxat Test (Yeast and Human).
+### FB15K-237.
