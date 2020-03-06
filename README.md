@@ -19,5 +19,5 @@ The data was created by integrating Drug-Target interactions from **DrugBank**, 
 This directory holds protein annotations and protein links for both human and yeast datasets. In the **Data** sub-directory you will find the indevidual files. In the **pykeen** subdirectory you will find the files that will run using pykeen and in the **ilp** directory you will find the reelvent Knowledgebase files for the respective tools; TILDE, GILPS and QuickFOIL.
 
 In the Scripts directory you will find the scripts used to create these indevidual files, written in python.
-### FB15K-237.
+### Knowledege_embeddings.
 This is the microsoft **FB15K-237** dataset, as well as the training and testing datasets you will also find the scripts used to convert the data to the relevent formats.
