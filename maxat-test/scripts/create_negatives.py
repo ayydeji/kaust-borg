@@ -4,10 +4,10 @@ prots = set()
 annots = set()
 
 relationships = set()
-
+# path to where you want the negatives file to be saves
 with open('/home/muhammaa/ilp/maxat-test/data/train/9606_neg.tsv', 'w', newline='') as outfile:
     writer = csv.writer(outfile, delimiter='\t')
-
+    # path to links file for the negatives
     annotations = open('/home/muhammaa/ilp/maxat-test/data/train/9606.protein.links.v11.0.txt', 'r')
     annot_reader = csv.reader(annotations, delimiter='\t')
 
