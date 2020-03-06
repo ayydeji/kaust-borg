@@ -2,10 +2,11 @@ import csv
 
 terms = []
 
+# path to the obo file
 with open('/home/muhammaa/ilp/maxat-test/data/all_go.obo', 'r') as file:
     data = file.read()
     terms = data.split("\n\n[Term]")
-
+# path to where you want the output tsv to be saved.
 with open('/home/muhammaa/ilp/maxat-test/data/all_goslim_yeast.tsv', 'w', newline='') as tsv:
     writer = csv.writer(tsv, delimiter='\t')
     tid = ""
